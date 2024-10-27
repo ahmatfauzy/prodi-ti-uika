@@ -1,8 +1,12 @@
+import logo from "./assets/FTS.jpg"
+
 function App() {
   return (
     <>
       {" "}
-      <div></div>
+      <div>
+        <img src={logo} alt="logo-cuy" />
+      </div>
     </>
   );
 }
