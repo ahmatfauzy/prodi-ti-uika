@@ -1,13 +1,12 @@
-import logo from "./assets/FTS.jpg"
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage.jsx';
+import './App.css'
 
 function App() {
   return (
-    <>
-      {" "}
-      <div>
-        <img src={logo} alt="logo-cuy" />
-      </div>
-    </>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+    </Routes>
   );
 }
 
