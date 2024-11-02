@@ -1,0 +1,22 @@
+/* AchievementCard.css */
+
+.achievement-card {
+  text-align: center;
+  /* max-width: 200px; */
+}
+
+.achievement-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.achievement-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.achievement-card p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+

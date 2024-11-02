@@ -1,0 +1,31 @@
+.hero-container {
+  background-image: url("../../assets/image/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  padding-right: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    background-position: right;
+    padding: 0 10px;
+  }
+
+  .hero-content {
+    color: white;
+  }
+}

@@ -1,0 +1,22 @@
+/* BackgroundComponent.css */
+.background-section {
+  background-image: url("../../assets/image/GedungFTS1.jpeg"); /* Ganti dengan path gambar Anda */
+  background-size: cover;
+  background-position: top center; /* Mengatur posisi default */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Memungkinkan gambar untuk tetap terlihat saat scroll */
+  height: 350px; /* Tinggi elemen */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(112, 193, 197, 0.6); 
+  z-index: 1;
+}

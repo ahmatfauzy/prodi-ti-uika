@@ -1,13 +1,115 @@
+* {
+  font-weight: 500;
+}
+
 .navbar-fixed {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
+  position: fixed;
+  color: white;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
 }
 
 .navbar-scrolled {
-    background-color: white !important;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white !important;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .ms-auto {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  .navbar-fixed {
+    color: black;
+  }
+}
+
+.nav-link {
+  position: relative;
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: inherit;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-fixed .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-scrolled .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.dropdown-toggle::after {
+  display: none; 
+}
+
+.dropdown-item {
+  position: relative;
+  color: inherit; 
+  /* transition: color 0.3s ease; */
+}
+
+.dropdown-item:hover {
+  color: inherit;
+}
+
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px; 
+  background-color: #007bff; 
+  transition: width 0.3s ease;
+}
+
+.dropdown-item {
+  position: relative;
+  color: inherit; 
+}
+
+.dropdown-item:hover {
+  color: inherit; }
+
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; 
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: #007bff; 
+}
+
+.dropdown-item:hover::after {
+  width: 100%; 
+}
+
+.dropdown{
+  font-weight: 500;
 }

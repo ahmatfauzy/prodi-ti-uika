@@ -1,0 +1,76 @@
+/* Footer.css */
+.footer-nav {
+  padding-left: 0;
+}
+
+.footer-nav .nav-link {
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .footer-nav {
+    text-align: left;
+    margin-left: -180px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* For mobile view */
+  .footer-nav {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.cp {
+  text-decoration: none;
+}
+
+.cuy {
+  background-color: #265b5e;
+  padding-top: 20px;
+}
+
+.dropdown-item {
+  position: relative;
+  color: inherit;
+  /* transition: color 0.3s ease; */
+}
+
+.dropdown-item:hover {
+  color: inherit;
+}
+
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease;
+}
+
+.dropdown-item {
+  position: relative;
+  color: inherit;
+}
+
+.dropdown-item:hover {
+  color: inherit;
+}
+
+.dropdown-item::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.dropdown-item:hover::after {
+  width: 100%;
+}

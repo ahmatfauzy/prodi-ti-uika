@@ -1,0 +1,34 @@
+/* AchievementsSection.css */
+
+.achievements-section {
+  background-color: #265B5E; /* Warna latar belakang */
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.achievement-card {
+  text-align: center;
+  max-width: 85%; 
+}
+
+.achievement-card .icon {
+  font-size: 2.5rem; 
+  margin-bottom: 10px;
+}
+
+.achievement-card h3 {
+  font-size: 2rem; 
+  margin-bottom: 10px;
+}
+
+.achievement-card p {
+  font-size: 1rem; /* Ukuran teks deskripsi */
+  line-height: 1.5;
+}
+
+  
+
+  
