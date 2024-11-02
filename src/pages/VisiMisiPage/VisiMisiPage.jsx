@@ -6,6 +6,7 @@ import PstiInfo from "../../components/Profile/PstiInfo";
 import Footer from "../../components/Footer/Footer";
 import { Container } from "react-bootstrap";
 import "./VisiMisiPage.css";
+import bannerImage from "../../assets/image/banner.jpg";
 
 function VisiMisiPage() {
   return (
@@ -13,7 +14,7 @@ function VisiMisiPage() {
       <NavBarBoots />
       <Banner
         className="banner"
-        imageUrl="../../assets/image/banner.jpg"
+        imageUrl={bannerImage}
         title="VISI, MISI & TUJUAN"
       />
       <Container className="mt-5">
