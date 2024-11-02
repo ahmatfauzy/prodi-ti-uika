@@ -13,7 +13,7 @@ function VisiMisiPage() {
       <NavBarBoots />
       <Banner
         className="banner"
-        imageUrl="/public/image/banner.jpg"
+        imageUrl="../../assets/image/banner.jpg"
         title="VISI, MISI & TUJUAN"
       />
       <Container className="mt-5">

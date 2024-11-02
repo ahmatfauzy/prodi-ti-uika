@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <>
       <NavBarBoots />
-      <Banner imageUrl="/public/image/banner.jpg" title="PRESTASI" />
+      <Banner imageUrl="../../assets/image/banner.jpg" title="PRESTASI" />
       <PrestasiList />
       <div className="d-flex flex-column min-vh-100">
         <div className="flex-grow-1"></div>
