@@ -5,7 +5,7 @@
   background-position: top center; /* Mengatur posisi default */
   background-repeat: no-repeat;
   background-attachment: fixed; /* Memungkinkan gambar untuk tetap terlihat saat scroll */
-  height: 350px; /* Tinggi elemen */
+  height: 300px; /* Tinggi elemen */
   position: relative;
   display: flex;
   align-items: center;

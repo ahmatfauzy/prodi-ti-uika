@@ -29,8 +29,7 @@ function HomePage() {
         </h1>
         <AccordionBoots />
       </Container> */}
-      <div className="d-flex flex-column min-vh-100">
-        <div className="flex-grow-1">{/* Konten utama halaman */}</div>
+      <div className="d-flex flex-column ">
         <Footer />
       </div>
     </>
