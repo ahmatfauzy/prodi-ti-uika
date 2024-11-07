@@ -21,7 +21,9 @@ function VisiMisiPage() {
         <PstiInfo />
       </Container>
       {/* <AccordionComponent /> */}
-      <Footer className="foot" />
+      <div className="d-flex flex-column ">
+        <Footer />
+      </div>
     </>
   );
 }
