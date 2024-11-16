@@ -1,0 +1,28 @@
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  background-color: #f4f4f4; /* Optional: background color */
+}
+
+.marquee-content {
+  display: flex;
+  gap: 60px;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-logo {
+  width: 500px;
+  height: 125px;
+  object-fit: contain; /* Maintain aspect ratio of logos */
+}
+
+/* Animation for scrolling from right to left */
+@keyframes marquee {
+  0% {
+    transform: translateX(0); /* Start from the left side */
+  }
+  100% {
+    transform: translateX(-50%); /* Scroll to half of the container's width */
+  }
+}

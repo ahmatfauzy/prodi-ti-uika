@@ -6,6 +6,8 @@ import HeroSection from "../../components/HeroSection/HeroSection.jsx";
 // import AchievementsSection from "../../components/Achievement/AchievementsSection.jsx";
 // import ButtonBoots from "../../components/button/ButtonBoots.jsx";
 import BackgroundComponent from "../../components/BackgroundComponent/BackgroundComponentG1.jsx";
+import TestimonialSection from "../../components/TestimonialSection/TestimonialSection.jsx";
+import MarqueeSection from "../../components/MarqueeSection/MarqueeSection.jsx";
 import VideoWithText from "../../components/VideoSect/VideoWithText.jsx";
 
 function HomePage() {
@@ -18,8 +20,11 @@ function HomePage() {
         <BackgroundComponent />
       </div>
       <Container>
-        <VideoWithText/>
+        <VideoWithText />
       </Container>
+      <TestimonialSection />
+      <MarqueeSection />
+
       {/* <Container>
         <h1>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia labore
