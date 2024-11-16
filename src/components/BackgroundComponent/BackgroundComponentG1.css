@@ -17,6 +17,55 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(112, 193, 197, 0.6); 
+  background-color: rgba(112, 193, 197, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: 1;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 2; 
+  text-align: center; 
+  color: white;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  /* max-width: 600px;  */
+}
+
+@media (max-width: 768px) {
+  .background-section {
+    height: 450px; /* Tinggi lebih besar untuk teks yang lebih panjang */
+  }
+
+  .content-container {
+    padding: 20px; /* Tambahkan ruang di sekitar konten */
+    text-align: center; /* Pastikan teks sejajar di tengah */
+  }
+
+  .title {
+    font-size: 1.5rem; /* Perkecil ukuran judul untuk layar kecil */
+  }
+
+  .description {
+    font-size: 1rem; /* Perkecil ukuran deskripsi */
+  }
+
+  .icon {
+    font-size: 2rem; /* Sesuaikan ukuran ikon */
+  }
 }

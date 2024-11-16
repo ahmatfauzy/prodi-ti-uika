@@ -3,7 +3,7 @@ import NavBarBoots from "../../components/NavBar/NavBarBoots.jsx";
 // import AccordionBoots from "../../components/Accordion/AccordionBoots.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import HeroSection from "../../components/HeroSection/HeroSection.jsx";
-import AchievementsSection from "../../components/Achievement/AchievementsSection.jsx";
+// import AchievementsSection from "../../components/Achievement/AchievementsSection.jsx";
 // import ButtonBoots from "../../components/button/ButtonBoots.jsx";
 import BackgroundComponent from "../../components/BackgroundComponent/BackgroundComponentG1.jsx";
 import VideoWithText from "../../components/VideoSect/VideoWithText.jsx";
@@ -13,7 +13,7 @@ function HomePage() {
     <>
       <NavBarBoots />
       <HeroSection />
-      <AchievementsSection />
+      {/* <AchievementsSection /> */}
       <div className="bg">
         <BackgroundComponent />
       </div>

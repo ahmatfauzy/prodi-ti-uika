@@ -30,7 +30,7 @@ function NavBarBoots() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={Logo} alt="Logo" width="60" height="auto" />
+          <img src={Logo} alt="Logo" width="65" height="auto" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

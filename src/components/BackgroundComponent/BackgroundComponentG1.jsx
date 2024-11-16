@@ -2,6 +2,7 @@
 // import React from 'react';
 import { useEffect } from "react";
 import "./BackgroundComponentG1.css"; // Pastikan file CSS ini dibuat
+import { FaCertificate } from "react-icons/fa"; 
 
 const BackgroundComponent = () => {
   useEffect(() => {
@@ -19,6 +20,13 @@ const BackgroundComponent = () => {
   return (
     <div className="background-section">
       <div className="overlay"></div>
+      <div className="content-container">
+        <div className="icon"><FaCertificate /></div>
+        <h1 className="title">Akreditasi B</h1>
+        <p className="description">
+        Berdasarkan Keputusan BAN-PT Nomor: 3318/SK/BAN-PT/Akred/S/IX/2019, Program Studi Teknik Informatika, pada Program Sarjana Universitas Ibn Khaldun Bogor, memenuhi syarat peringkat Akreditasi B.
+        </p>
+      </div>
     </div>
   );
 };
