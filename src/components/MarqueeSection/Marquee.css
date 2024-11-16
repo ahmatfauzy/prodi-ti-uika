@@ -2,7 +2,7 @@
   width: 100%;
   overflow: hidden;
   padding: 20px 0;
-  background-color: #f4f4f4; /* Optional: background color */
+  background-color: #fff;
 }
 
 .marquee-content {
@@ -14,15 +14,14 @@
 .marquee-logo {
   width: 500px;
   height: 125px;
-  object-fit: contain; /* Maintain aspect ratio of logos */
+  object-fit: contain;
 }
 
-/* Animation for scrolling from right to left */
 @keyframes marquee {
   0% {
-    transform: translateX(0); /* Start from the left side */
+    transform: translateX(0); 
   }
   100% {
-    transform: translateX(-50%); /* Scroll to half of the container's width */
+    transform: translateX(-50%); 
   }
 }
